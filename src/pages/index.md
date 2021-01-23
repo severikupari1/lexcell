@@ -17,21 +17,33 @@ description: Lexcell Oy focuses on consulting in land use processes e.g.
     formation and land property sales.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/money-house.jpg
       text: >
-        - Rakentaminen-, suunnittelu ja kiinteistönvaihdanta sekä juridinen osaaminen
-        - Maankäytön prosessit
-        - Kaavoitus, maaomaisuuden hallinta- ja kehittäminen, julkiset prosessit esimerkiksi rakentaminen- ja kiinteistönmuodostaminen kunnalla.
-        - Kiinteistökehittäminen
-        - Kiinteistön kehittäminen maaomaisuutta kehittämällä, pienkiinteistöjen kehittäminen esim. asuinhuoneistot, kaavoittaminen, kiinteistökehittämisen yleiset trendit
-        - Kiinteistönvaihdanta ja siihen liittyvä lainsäädäntö
-        - Kiinteistökauppa, omistusten kirjaus, jakokirjat, yms.
-        - Kiinteistönhallintaan liittyvät sopimukset
-        - Rasitesopimukset, hallinnanjakosopimukset, kauppakirjat yms. Paikkatieto-osaaminen ja tiedonhallinta
-        - Paikkatietoanalyysit
-        - Tiedon harmonisointi
-        - 3D-visualisoinnit ja kaupunkimallit
-        - Tiedonhallinta
+        <h3> Rakentaminen-, suunnittelu ja kiinteistönvaihdanta sekä juridinen osaaminen </h3>          
+        <ul>
+            <li> Maankäytön prosessit </li> 
+            <li> Kaavoitus, maaomaisuuden hallinta- ja kehittäminen, julkiset prosessit esimerkiksi rakentaminen- ja kiinteistönmuodostaminen kunnalla. </li> 
+            <li> Kiinteistökehittäminen </li> 
+            <li> Kiinteistön kehittäminen maaomaisuutta kehittämällä, pienkiinteistöjen kehittäminen esim. asuinhuoneistot, kaavoittaminen, kiinteistökehittämisen yleiset trendit </li> 
+            <li> Kiinteistönvaihdanta ja siihen liittyvä lainsäädäntö </li> 
+            <li> Kiinteistökauppa, omistusten kirjaus, jakokirjat, yms. </li> 
+            <li> Kiinteistönhallintaan liittyvät sopimukset </li> 
+            <li> Rasitesopimukset, hallinnanjakosopimukset, kauppakirjat yms. </li> 
+            <li> Paikkatietoanalyysit </li> 
+            <li> Tiedon harmonisointi </li> 
+            <li> 3D-visualisoinnit ja kaupunkimallit </li> 
+            <li> Tiedonhallinta </li> 
+        </ul>    
+    - image: /img/map.png
+      text: >    
+        <h3> Paikkatieto-osaaminen ja tiedonhallinta </h3>       
+        <ul>
+            <li> Paikkatietoanalyysit </li> 
+            <li> Tiedon harmonisointi </li> 
+            <li> 3D-visualisoinnit ja kaupunkimallit </li> 
+            <li> Tiedonhallinta </li> 
+        </ul>   
+                
   heading: Mitä me tarjoamme
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

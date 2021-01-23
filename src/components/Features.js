@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import { HTMLContent } from "./Content";
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
@@ -10,14 +11,14 @@ const FeatureGrid = ({ gridItems }) => (
           <div className="has-text-centered">
             <div
               style={{
-                width: '240px',
+                width: '280px',
                 display: 'inline-block',
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p>{item.text}</p>
+          <HTMLContent content={item.text}></HTMLContent>
         </section>
       </div>
     ))}
