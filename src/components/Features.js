@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import { HTMLContent } from "./Content";
+import MarkdownContent from "./MardownContent";
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
@@ -18,7 +19,7 @@ const FeatureGrid = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <HTMLContent content={item.text}></HTMLContent>
+          <MarkdownContent content={item.text}></MarkdownContent>
         </section>
       </div>
     ))}
