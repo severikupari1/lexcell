@@ -2,23 +2,25 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import { HTMLContent } from "./Content";
+import MarkdownContent from "./MardownContent";
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map((item) => (
       <div key={item.text} className="column is-6">
         <section className="section">
-          <div className="has-text-centered">
+          <div className="has-text-centered mb-2">
             <div
               style={{
-                width: '280px',
+                width: '450px',
                 display: 'inline-block',
+                filter: 'grayscale(70%)'
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <HTMLContent content={item.text}></HTMLContent>
+          <MarkdownContent content={item.text}></MarkdownContent>
         </section>
       </div>
     ))}

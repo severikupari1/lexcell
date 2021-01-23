@@ -16,7 +16,6 @@ title: Asiantuntijat
 ##### [LinkedIn](https://fi.linkedin.com/in/aleksi-toivonen-b3683b13b)
 
 
-
 ## Ville Paatsola
 
 ![Ville Paatsola](/img/ville.png "Ville Paatsola")
