@@ -12,7 +12,7 @@ const FeatureGrid = ({ gridItems }) => (
           <div className="has-text-centered mb-2">
             <div
               style={{
-                width: '450px',
+                width: '200px',
                 display: 'inline-block',
                 filter: 'grayscale(70%)'
               }}
