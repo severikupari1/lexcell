@@ -14,13 +14,13 @@ description: >-
   <a href="mailto:info@lexcell.fi" class="email-link">info@lexcell.fi</a> tai etunimi.sukunimi@lexcell.fi. Henkilöesittelyn löydät [täältä](https://lexcell.netlify.app/about).  
 
 
-  Kiinteistön kauppakirjamalli <a href="https://lexcell.netlify.app/static/pdf/kauppakirja.pdf"  class="pdf-link" download>Lataa</a>
+  Kiinteistön kauppakirjamalli <a href="https://lexcell.netlify.app/pdf/kauppakirja.pdf"  class="pdf-link" download>Lataa</a>
 
 
   Kiinteistön kauppakirjoja käytetään kun kiinteistö luovutetaan toiselle osapuolelle vastiketta vastaan.
 
 
-  Kiinteistön Lahjakirjamalli <a href="https://lexcell.netlify.app/static/pdf/lahjakirja.pdf"  class="pdf-link" download>Lataa</a>
+  Kiinteistön Lahjakirjamalli <a href="https://lexcell.netlify.app/pdf/lahjakirja.pdf"  class="pdf-link" download>Lataa</a>
 
 
   Lahjakirjoja käytetään kun kiinteistö lahjoitetaan toiselle osapuolelle ilman vastiketta, esimerkiksi sukulaiselle.
