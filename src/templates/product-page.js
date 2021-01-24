@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import MarkdownContent from "../components/MardownContent";
 
 export const ProductPageTemplate = ({
   image,
@@ -45,7 +46,7 @@ export const ProductPageTemplate = ({
           <div className="columns">
             <div className="column is-7 is-offset-1">
               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
+              <MarkdownContent content={ description }/>
             </div>
           </div>
           <div className="columns">
@@ -56,7 +57,7 @@ export const ProductPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
                   </h3>
-                  <p>{main.description}</p>
+                  <MarkdownContent content={ main.description }/>
                 </div>
               </div>
               <div className="tile is-ancestor">
