@@ -43,6 +43,21 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
+
+        <meta property="og:url" content="https://lexcell.netlify.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content="/img/og-image.jpg" />
+
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="lexcell.netlify.app" />
+        <meta property="twitter:url" content="https://lexcell.netlify.app/" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content="/img/og-image.jpg" />
+
         <meta
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
