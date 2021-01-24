@@ -11,7 +11,6 @@ const TemplateWrapper = ({ children }) => {
   return (
     <div>
       <Helmet>
-        <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
 
@@ -42,7 +41,6 @@ const TemplateWrapper = ({ children }) => {
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
 
         <meta property="og:url" content="https://lexcell.netlify.app/" />
         <meta property="og:type" content="website" />
