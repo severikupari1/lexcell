@@ -1,5 +1,67 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  font-size: 100%
+  vertical-align: baseline
+  background: transparent
+body
+  line-height: 1
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section
+  display: block
+nav
+  ul
+    list-style: none
+blockquote, q
+  quotes: none
+blockquote:before, blockquote:after,
+q:before, q:after
+  content: ''
+  content: none
+a
+  margin: 0
+  padding: 0
+  font-size: 100%
+  vertical-align: baseline
+  background: transparent
+
+html, body
+  min-height: 100vh
+  font-size: 14px
+  @media screen and (min-width: 992px)
+    font-size: 13px
+
+body
+  font-size: 14px
+  background-color: #fff
+  transition: padding 0.2s ease-in-out
+  @media screen and (min-width: 992px)
+    font-size: 13px
+
+
+body, p
+  line-height: 16px
+ul
+  padding-left: 1rem
+p
+  padding-bottom: 1rem
+
+
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -35,7 +97,7 @@ $logo-red: #810000
 
 // Helper Classes
 .full-width-image-container
-  width: 100vw
+  width: 100%
   height: 400px
   position: relative
   left: 50%
@@ -48,7 +110,7 @@ $logo-red: #810000
   align-items: center
 
 .full-width-image
-    width: 100vw
+    width: 100%
     height: 400px
     background-size: cover
     background-position: bottom
@@ -80,14 +142,18 @@ $logo-red: #810000
   color: $primary
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
-  width: 1.5rem
-  height: 1.5rem
+  width: 2rem
+  height: 2rem
   fill: currentColor
 .navbar-brand .navbar-item.logo
-  padding: 0 1rem
+  padding: 0 0.2rem
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
+
+.text-wrap
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -134,6 +200,7 @@ $navbar-item-hover-color: #575555 !important
   margin: 0 1.5em 0 0;
 
 
+
 @import "~bulma"
 
 
@@ -149,3 +216,5 @@ $navbar-item-hover-color: #575555 !important
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .section
+    padding: 1rem 0.5rem
