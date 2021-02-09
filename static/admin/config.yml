@@ -8,6 +8,12 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+local_backend:
+  # when using a custom proxy server port
+  url: http://localhost:8081/api/v1
+  # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+  allowed_hosts: ['192.168.0.1']
+
 media_folder: static/img
 public_folder: /img
 
@@ -64,3 +70,41 @@ collections:
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+
+  - name: "pages ENG"
+    label: "Pages ENG"
+    files:
+      - file: "src/pages/en/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page-en" }
+          - { label: Title, name: title, widget: "markdown" }
+          - { label: Image, name: image, widget: image }
+          - { label: Heading, name: heading, widget: "markdown" }
+          - { label: Subheading, name: subheading, widget: "markdown" }
+          - { label: Mainpitch, name: mainpitch, widget: object, fields: [ { label: Title, name: title, widget: string }, { label: Description, name: description, widget: "markdown" } ] }
+          - { label: Description, name: description, widget: "markdown" }
+          - { label: Intro, name: intro, widget: object, fields: [ { label: Heading, name: heading, widget: string }, { label: Description, name: description, widget: "markdown" }, { label: Blurbs, name: blurbs, widget: list, fields: [ { label: Image, name: image, widget: image }, { label: Text, name: text, widget: "markdown" } ] } ] }
+          - { label: Main, name: main, widget: object, fields: [ { label: Heading, name: heading, widget: string }, { label: Description, name: description, widget: "markdown" }, { label: Image1, name: image1, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Alt, name: alt, widget: string } ] }, { label: Image2, name: image2, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Alt, name: alt, widget: string } ] }, { label: Image3, name: image3, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Alt, name: alt, widget: string } ] } ] }
+      - file: "src/pages/en/about/index.md"
+        label: "About"
+        name: "about"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/en/products/index.md"
+        label: "Products Page"
+        name: "products"
+        fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page" }
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Description, name: description, widget: "markdown" }
+          - { label: Intro, name: intro, widget: object, fields: [ { label: Heading, name: heading, widget: string }, { label: Description, name: description, widget: "markdown" }, { label: Blurbs, name: blurbs, widget: list, fields: [ { label: Image, name: image, widget: image }, { label: Text, name: text, widget: "markdown" } ] } ] }
+          - { label: Main, name: main, widget: object, fields: [ { label: Heading, name: heading, widget: string }, { label: Description, name: description, widget: "markdown" }, { label: Image1, name: image1, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Alt, name: alt, widget: string } ] }, { label: Image2, name: image2, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Alt, name: alt, widget: string } ] }, { label: Image3, name: image3, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Alt, name: alt, widget: string } ] } ] }
+          - { label: Testimonials, name: testimonials, widget: list, fields: [ { label: Quote, name: quote, widget: string }, { label: Author, name: author, widget: string } ] }
+          - { label: Full_image, name: full_image, widget: image }
+          - { label: Pricing, name: pricing, widget: object, fields: [ { label: Heading, name: heading, widget: string }, { label: Description, name: description, widget: string }, { label: Plans, name: plans, widget: list, fields: [ { label: Plan, name: plan, widget: string }, { label: Price, name: price, widget: string }, { label: Description, name: description, widget: string }, { label: Items, name: items, widget: list } ] } ] }
