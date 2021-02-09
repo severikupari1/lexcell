@@ -62,18 +62,18 @@ const BlogPost = ({ data }) => {
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        description={post.en.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
+            <title>{`${post.en.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${post.en.frontmatter.description}`}
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
+        tags={post.en.frontmatter.tags}
+        title={post.en.frontmatter.title}
       />
     </Layout>
   )
@@ -88,11 +88,18 @@ BlogPost.propTypes = {
 export default BlogPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      frontmatter {
+query BlogPostByID($id: String!) {
+  markdownRemark(id: {eq: $id}) {
+    id
+    html
+    frontmatter {
+      fi {
+        date(formatString: "MMMM DD, YYYY")
+        title
+        description
+        tags
+      }
+      en {
         date(formatString: "MMMM DD, YYYY")
         title
         description
@@ -100,4 +107,6 @@ export const pageQuery = graphql`
       }
     }
   }
+}
+
 `
