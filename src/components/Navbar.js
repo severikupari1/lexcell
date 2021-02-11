@@ -1,12 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo.svg'
+import nav from '../data/navbar'
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       active: false,
+      activeLanguage: 'fi',
       navBarActiveClass: '',
     }
   }
@@ -32,6 +35,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+
     return (
       <nav
         className="navbar"
@@ -40,39 +44,42 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
+            { nav.map(item => (
+                item.lang === this.state.activeLanguage ? item.logo.map(linkItem => (
+                    <Link className="navbar-item" to={ linkItem.href }>
+                      <img src={logo} alt={linkItem.title} style={{ width: '88px' }} />
+                    </Link>
+                )) : <div></div>
+            )) }
             {/* Hamburger menu */}
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
+                className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+                data-target="navMenu"
+                onClick={() => this.toggleHamburger()}
             >
               <span />
               <span />
               <span />
             </div>
           </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-            </div>
-          </div>
+          { nav.map(item => (
+              item.lang === this.state.activeLanguage ?
+              <div
+                  id="navMenu"
+                  className={ `navbar-menu ${ this.state.navBarActiveClass }` }
+              >
+                <div className="navbar-start has-text-centered">
+                  {
+                     item.nav.map(linkItem => (
+                            <Link className="navbar-item" to={linkItem.href}>
+                              { linkItem.title }
+                            </Link>
+                    ))
+                  }
+                </div>
+              </div> : <div> </div>
+          )) }
+          <LanguageSwitcher></LanguageSwitcher>
         </div>
       </nav>
     )
