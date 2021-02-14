@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-title: Test
+title: Specialists
 ---
 ## Kimmo Sulonen
 

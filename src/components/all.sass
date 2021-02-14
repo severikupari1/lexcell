@@ -169,6 +169,9 @@ $menu-label-color: $white-ter
 $navbar-item-color: $white-ter
 $navbar-item-hover-color: #575555 !important
 
+// Select overrides
+
+
 .content a
   color: $logo-red
 
@@ -200,6 +203,20 @@ $navbar-item-hover-color: #575555 !important
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
 
+.body
+  overflow-x: auto
+
+// Import only what you need from Bulma
+@import "~bulma/sass/utilities/_all.sass"
+@import "~bulma/sass/base/_all.sass"
+@import "~bulma/sass/elements/button.sass"
+@import "~bulma/sass/elements/container.sass"
+@import "~bulma/sass/elements/title.sass"
+@import "~bulma/sass/elements/icon.sass"
+@import "~bulma/sass/form/_all.sass"
+@import "~bulma/sass/components/navbar.sass"
+@import "~bulma/sass/layout/hero.sass"
+@import "~bulma/sass/layout/section.sass"
 @import "~bulma"
 
 // responsiveness
