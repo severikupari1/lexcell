@@ -1,9 +1,8 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { Link } from 'gatsby'
 import logo from '../img/logo.svg'
 import nav from '../data/navbar'
 import LanguageSwitcher from "./LanguageSwitcher";
-import useSiteMetadata from "./SiteMetadata";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -16,16 +15,30 @@ const Navbar = class extends React.Component {
     }
   }
 
-  handleInputChange(e) {
-    const { value, name } = e.target;
-    localStorage.setItem(name, value)
-    this.setState({ [name]: value });
-    // Reload page when changing language
-    const url = typeof window !== 'undefined' ? window.location.href : '';
-    const { siteURL } = useSiteMetadata()
+    handleInputChange(e) {
+        const {value, name} = e.target;
+        const oldLang = localStorage.getItem("activeLanguage") || ''
+        localStorage.setItem(name, value)
+        this.setState({[name]: value});
+        const pathName = window.location.pathname || ''
 
-    window.location.reload(siteURL);
-  }
+        // Reload page when changing language
+        if (value === "fi") {
+            setTimeout(() => {
+                window.location.replace(`${pathName}`.replace(`/${oldLang}/`,'/'));
+            }, 10)
+        }
+
+        if (value === "en" && !pathName.endsWith('blog')) {
+            setTimeout(() => {
+                window.location.replace(`/en${pathName}`);
+            }, 10)
+        }else if (value === "en" && pathName.endsWith('blog')){
+            setTimeout(() => {
+                window.location.replace(`${pathName}`.replace(`/${oldLang}/`,'/'));
+            }, 10)
+        }
+    }
 
   toggleHamburger = () => {
     // toggle the active boolean in the state
@@ -67,6 +80,7 @@ const Navbar = class extends React.Component {
                 className={`navbar-burger burger ${this.state.navBarActiveClass}`}
                 data-target="navMenu"
                 onClick={() => this.toggleHamburger()}
+                onKeyPress={() => this.toggleHamburger()}
             >
               <span />
               <span />
@@ -93,17 +107,3 @@ const Navbar = class extends React.Component {
 }
 
 export default Navbar
-
-export const pageQuery = graphql`
-  query NavBarLogo {
-    file(relativePath: { eq: "src/img/logo.svg" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed(width: 88, height: 88) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`

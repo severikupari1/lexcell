@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Lexcell oy - Excellent consulting service',
     description: 'Excellent consulting service',
-    siteURL: 'https://lexcell.netlify.app/',
+    siteURL: 'https://lexcell.netlify.app',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
