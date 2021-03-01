@@ -3,7 +3,6 @@ templateKey: index-page
 title: Lexcell Oy
 image: /img/hero_image.jpg
 heading: About our company
-subheading: Konsultointi
 mainpitch:
   title: Tietoja yrityksestämme
   description: >

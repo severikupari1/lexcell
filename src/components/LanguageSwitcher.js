@@ -1,12 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import nav from '../data/navbar'
 
 import './LanguageSwitcher.sass'
 
 const LanguageSwitcher = ({handleInputChange,activeLanguage = 'fi'}) => {
-    const componentStyle = 'LanguageSwitcher'
-    let url = ''
     const activeData = nav.filter(data => data.lang === activeLanguage)
     const notActive = nav.filter(data => data.lang !== activeLanguage)
 

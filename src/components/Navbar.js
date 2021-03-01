@@ -10,16 +10,19 @@ const Navbar = class extends React.Component {
     this.handleInputChange = this.handleInputChange.bind(this);
     this.state = {
       active: false,
-      activeLanguage: localStorage.getItem("activeLanguage") || 'fi',
+      activeLanguage: this.props.lang,
       navBarActiveClass: '',
     }
   }
 
+    langChange = (value) => {
+        this.props.langChange(value)
+    }
+
     handleInputChange(e) {
-        const {value, name} = e.target;
-        const oldLang = localStorage.getItem("activeLanguage") || ''
-        localStorage.setItem(name, value)
-        this.setState({[name]: value});
+        const {value} = e.target;
+        const oldLang = this.state.activeLanguage;
+        this.langChange(value)
         const pathName = window.location.pathname || ''
 
         // Reload page when changing language

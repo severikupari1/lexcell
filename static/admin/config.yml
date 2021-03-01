@@ -44,7 +44,6 @@ collections:
           - {label: Title, name: title, widget: "markdown"}
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: "markdown"}
-          - {label: Subheading, name: subheading, widget: "markdown"}
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: "markdown"}]}
           - {label: Description, name: description, widget: "markdown"}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: "markdown"}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: "markdown"}]}]}
@@ -82,7 +81,6 @@ collections:
           - { label: Title, name: title, widget: "markdown" }
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: "markdown" }
-          - { label: Subheading, name: subheading, widget: "markdown" }
           - { label: Mainpitch, name: mainpitch, widget: object, fields: [ { label: Title, name: title, widget: string }, { label: Description, name: description, widget: "markdown" } ] }
           - { label: Description, name: description, widget: "markdown" }
           - { label: Intro, name: intro, widget: object, fields: [ { label: Heading, name: heading, widget: string }, { label: Description, name: description, widget: "markdown" }, { label: Blurbs, name: blurbs, widget: list, fields: [ { label: Image, name: image, widget: image }, { label: Text, name: text, widget: "markdown" } ] } ] }
