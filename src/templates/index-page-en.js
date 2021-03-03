@@ -11,7 +11,6 @@ export const IndexPageTemplate = ({
   title,
   heading,
   description,
-  productlink,
   intro,
 }) => (
   <div>
@@ -56,7 +55,6 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2 text-wrap">
@@ -70,18 +68,18 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered text-wrap">
                     <Link className="btn" to="/products">
-                        { productlink }
+                        Check out our expertise!
                     </Link>
                   </div>
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2 text-wrap">
-                    Viimeisimmät uutiset
+                      Latest news
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
-                      Lue lisää
+                        Read more
                     </Link>
                   </div>
                 </div>
@@ -99,7 +97,6 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
-  productlink: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -116,7 +113,6 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         description={frontmatter.description}
         intro={frontmatter.intro}
-        productlink={frontmatter.productlink}
       />
     </Layout>
   )
@@ -133,14 +129,13 @@ IndexPage.propTypes = {
 export default IndexPage
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+  query IndexPageTemplateEng {
+    markdownRemark(frontmatter: { templateKey: { eq: "index-page-en" } }) {
       frontmatter {
         title
-        productlink
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 50) {
+            fluid(maxWidth: 2048, quality: 64) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -151,7 +146,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 50) {
+                fluid(maxWidth: 240, quality: 64, maxHeight: 92) {
                   ...GatsbyImageSharpFluid
                 }
               }

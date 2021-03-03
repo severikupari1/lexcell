@@ -5,10 +5,12 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 import './custom.sass'
 import useSiteMetadata from './SiteMetadata'
+import useLocalStorage from '../hooks/useLocalStorage'
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
+  const [lang, setLang] = useLocalStorage('activeLanguage', 'fi');
   return (
     <div>
       <Helmet>
@@ -51,8 +53,8 @@ const TemplateWrapper = ({ children }) => {
 
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="lexcell.netlify.app" />
-        <meta property="twitter:url" content="https://lexcell.netlify.app/" />
+        <meta property="linkedIn:domain" content="lexcell.netlify.app" />
+        <meta property="linkedIn:url" content="https://lexcell.netlify.app/" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content="https://lexcell.netlify.app/img/og-image.jpg" />
@@ -62,9 +64,10 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
+      <Navbar langChange={setLang} lang={lang}/>
       <div>{children}</div>
-      <Footer />
+      <Footer lang={lang}/>
+
     </div>
   )
 }
