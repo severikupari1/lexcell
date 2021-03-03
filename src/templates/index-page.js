@@ -59,9 +59,9 @@ export const IndexPageTemplate = ({
 
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2 text-wrap">
+                    <h2 className="has-text-weight-semibold is-size-2 text-wrap">
                       {heading}
-                    </h3>
+                    </h2>
                     <p>{description}</p>
                   </div>
                 </div>
