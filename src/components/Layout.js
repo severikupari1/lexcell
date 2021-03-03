@@ -67,6 +67,7 @@ const TemplateWrapper = ({ children }) => {
       <Navbar langChange={setLang} lang={lang}/>
       <div>{children}</div>
       <Footer lang={lang}/>
+
     </div>
   )
 }

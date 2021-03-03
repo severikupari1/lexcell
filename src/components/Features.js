@@ -13,6 +13,7 @@ const FeatureGrid = ({ gridItems }) => (
             <div
               style={{
                 width: '200px',
+                minHeight: '120px',
                 display: 'inline-block',
                 filter: 'grayscale(70%)'
               }}

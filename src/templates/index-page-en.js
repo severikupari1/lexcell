@@ -10,7 +10,6 @@ export const IndexPageTemplate = ({
   image,
   title,
   heading,
-  mainpitch,
   description,
   intro,
 }) => (
@@ -56,16 +55,6 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2 text-wrap">
-                      {mainpitch.title}
-                    </h3>
-                    <p>{mainpitch.description}</p>
-                  </div>
-                </div>
-
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2 text-wrap">
@@ -107,7 +96,6 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -123,7 +111,6 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -148,30 +135,24 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 2048, quality: 64) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         heading
-        mainpitch {
-          title
-          description
-        }
         description
         intro {
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 240, quality: 64, maxHeight: 92) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
             text
           }
-          heading
-          description
         }
       }
     }

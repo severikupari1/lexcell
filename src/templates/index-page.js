@@ -10,8 +10,8 @@ export const IndexPageTemplate = ({
   image,
   title,
   heading,
-  mainpitch,
   description,
+  productlink,
   intro,
 }) => (
   <div>
@@ -60,15 +60,6 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2 text-wrap">
-                      {mainpitch.title}
-                    </h3>
-                    <p>{mainpitch.description}</p>
-                  </div>
-                </div>
-
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2 text-wrap">
                       {heading}
                     </h3>
                     <p>{description}</p>
@@ -79,7 +70,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered text-wrap">
                     <Link className="btn" to="/products">
-                      Tutustu osaamiseemme!
+                        { productlink }
                     </Link>
                   </div>
                 </div>
@@ -107,8 +98,8 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  mainpitch: PropTypes.object,
   description: PropTypes.string,
+  productlink: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -123,9 +114,9 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        productlink={frontmatter.productlink}
       />
     </Layout>
   )
@@ -146,32 +137,27 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        productlink
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 2048, quality: 50) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         heading
-        mainpitch {
-          title
-          description
-        }
         description
         intro {
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 240, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
             text
           }
-          heading
-          description
         }
       }
     }

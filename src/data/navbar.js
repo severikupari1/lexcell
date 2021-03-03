@@ -15,8 +15,8 @@ module.exports = [
     path: '/en/',
     logo: { href: '/en/', title: 'Lexcell Oy' },
     nav: [
-      { href: '/en/about', title: 'About'},
-      { href: '/en/products', title: 'Products'},
+      { href: '/en/about', title: 'Specialists'},
+      { href: '/en/products', title: 'Pricing'},
       { href: '/blog', title: 'Blog'},
       { href: '/en/contact', title: 'Contact'},
     ],

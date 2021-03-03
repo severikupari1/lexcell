@@ -3,9 +3,6 @@ templateKey: index-page-en
 title: Lexcell Oy
 image: /img/hero_image.jpg
 heading: About our company
-mainpitch:
-  title: " "
-  description: " ‎‎‏‏‎ ‎"
 description: Lexcell Oy focuses on consulting in land use processes e.g. in
   construction, land development and real property management. The company
   provides counselling and preparatory work for real estate formation and land
@@ -47,19 +44,7 @@ intro:
         * Harmonization of information
         * 3D visualizations and city models
         * Information management
-  heading: Mitä me tarjoamme
-  description: ‎‎‏‏‎ ‎
-main:
-  heading: Placeholder
-  description: |
-    Placeholder
-  image1:
-    alt: Placeholder
-    image: /img/products-grid3.jpg
-  image2:
-    image: /img/blog-index.jpg
-    alt: test
-  image3:
-    image: /img/blog-index.jpg
-    alt: test
+
+  productlink: Pricing!
+
 ---
