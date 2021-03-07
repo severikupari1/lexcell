@@ -3,7 +3,7 @@ templateKey: contact-page
 path: /contact
 title: Yhteystiedot
 ---
-Ota yhteyttä meihin sähköpostitse tai chätin avulla.
+Ota yhteyttä meihin sähköpostitse tai chatin avulla.
 
 <a href="mailto:info@lexcell.fi" class="email-link">info@lexcell.fi</a> tai etunimi.sukunimi@lexcell.fi.
 

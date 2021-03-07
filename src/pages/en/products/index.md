@@ -18,7 +18,7 @@ description: >-
   The deeds of a property are used when the property is transferred to another party for consideration.
 
 
-  Property Gift Book Template <a href="https://lexcell.netlify.app/pdf/lahjakirja.pdf"  class="pdf-link" download>Download</a>
+  Property Gift Book Template <a href="https://lexcell.netlify.app/pdf/lahjakirja.pdf" target="_blank" class="pdf-link" download>Download</a>
 
 
   Gift certificates are used when a property is donated to another party for no consideration, such as a relative.
