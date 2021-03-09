@@ -17,8 +17,6 @@ const Footer = class extends React.Component {
 
   render() {
     const filteredData = nav.filter(data => data.lang === this.state.activeLanguage)[0] || [];
-    console.log(filteredData)
-    console.log(this.props.lang)
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
@@ -27,6 +25,9 @@ const Footer = class extends React.Component {
             alt="Lexcell Oy"
             style={{ width: '14em', height: '10em' }}
           />
+          <h4 class="has-text-white-ter">
+            { this.props.lang === 'fi' ? 'Y-tunnus: ' : 'Business ID: '} : 3147819-7
+          </h4>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
