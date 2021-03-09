@@ -11,9 +11,9 @@ intro:
   blurbs:
     - image: /img/money-house.jpg
       text: |
-            ###Rakentaminen-, suunnittelu ja kiinteistönvaihdanta sekä juridinen osaaminen
+            <h2 class="text-primary"> Rakentaminen-, suunnittelu ja kiinteistönvaihdanta sekä juridinen osaaminen </h2> 
             * Maankäytön prosessit 
-            * Kaavoitus, maaomaisuuden hallinta- ja kehittäminen, julkiset prosessit esimerkiksi rakentaminen- ja kiinteistönmuodostaminen kunnalla. 
+            * Kaavoitus, maaomaisuuden hallinta- ja kehittäminen, julkiset prosessit esimerkiksi rakentaminen- ja kiinteistönmuodostaminen kunnalla
             * Kiinteistökehittäminen 
             * Kiinteistön kehittäminen maaomaisuutta kehittämällä, pienkiinteistöjen kehittäminen esim. asuinhuoneistot, kaavoittaminen, kiinteistökehittämisen yleiset trendit 
             * Kiinteistönvaihdanta ja siihen liittyvä lainsäädäntö 
@@ -27,7 +27,7 @@ intro:
            
     - image: /img/map.png
       text: |
-            ###Paikkatieto-osaaminen ja tiedonhallinta      
+            <h2 class="text-primary"> Paikkatieto-osaaminen ja tiedonhallinta </h2>     
             * Paikkatietoanalyysit 
             * Tiedon harmonisointi 
             * 3D-visualisoinnit ja kaupunkimallit 

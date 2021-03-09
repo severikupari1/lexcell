@@ -19,7 +19,7 @@ description: >-
   Kiinteistön kauppakirjoja käytetään kun kiinteistö luovutetaan toiselle osapuolelle vastiketta vastaan.
 
 
-  Kiinteistön Lahjakirjamalli <a href="https://lexcell.netlify.app/pdf/lahjakirja.pdf" target="_blank" class="pdf-link" download>Lataa</a>
+  Kiinteistön lahjakirjamalli <a href="https://lexcell.netlify.app/pdf/lahjakirja.pdf" target="_blank" class="pdf-link" download>Lataa</a>
 
 
   Lahjakirjoja käytetään kun kiinteistö lahjoitetaan toiselle osapuolelle ilman vastiketta, esimerkiksi sukulaiselle.

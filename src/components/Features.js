@@ -15,7 +15,7 @@ const FeatureGrid = ({ gridItems }) => (
                 width: '200px',
                 minHeight: '120px',
                 display: 'inline-block',
-                filter: 'grayscale(70%)'
+                filter: 'grayscale(100%)'
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />

@@ -11,12 +11,11 @@ intro:
   blurbs:
     - image: /img/money-house.jpg
       text: >
-        ### Construction, design and real estate exchange and legal
-        competence
+        <h2 class="text-primary"> Construction, design and real estate exchange and legal competence </h2>
 
         * Land use processes
 
-        * Zoning, land management and development, public processes such as construction and real estate formation in the municipality.
+        * Zoning, land management and development, public processes such as construction and real estate formation in the municipality
 
         * Real estate development
 
@@ -39,12 +38,12 @@ intro:
         * Information management 
     - image: /img/map.png
       text: |
-        ###Spatial knowledge and information management
+        <h2 class="text-primary"> Spatial knowledge and information management </h2>
         * Spatial data analysis
         * Harmonization of information
         * 3D visualizations and city models
         * Information management
 
-  productlink: Pricing!
+productlink: List of prices!
 
 ---

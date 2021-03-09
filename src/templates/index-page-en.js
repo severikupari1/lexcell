@@ -11,6 +11,7 @@ export const IndexPageTemplate = ({
   title,
   heading,
   description,
+  productlink,
   intro,
 }) => (
   <div>
@@ -57,7 +58,7 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="columns">
                   <div className="column is-12">
-                    <h2 className="has-text-weight-semibold is-size-2 text-wrap">
+                    <h2 className="has-text-weight-semibold is-size-2 text-wrap text-primary">
                       {heading}
                     </h2>
                     <p>{description}</p>
@@ -68,7 +69,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered text-wrap">
                     <Link className="btn" to="/products">
-                        Check out our expertise!
+                        { productlink }
                     </Link>
                   </div>
                 </div>
@@ -97,6 +98,7 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
+  productlink: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -113,6 +115,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        productlink={frontmatter.productlink}
       />
     </Layout>
   )
@@ -133,9 +136,10 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page-en" } }) {
       frontmatter {
         title
+        productlink
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 64) {
+            fluid(maxWidth: 2048, quality: 50) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -146,7 +150,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64, maxHeight: 92) {
+                fluid(maxWidth: 240, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
