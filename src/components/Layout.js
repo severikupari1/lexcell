@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
@@ -7,13 +7,26 @@ import './custom.sass'
 import useSiteMetadata from './SiteMetadata'
 import useLocalStorage from '../hooks/useLocalStorage'
 import { withPrefix } from 'gatsby'
+import tawkTo from "tawkto-react";
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
-  const [lang, setLang] = useLocalStorage('activeLanguage', 'fi');
+    const {title, description} = useSiteMetadata()
+   
+    const [lang, setLang] = useLocalStorage('activeLanguage', 'fi');
+    
+    const tawkToPropertyId = '603fcfd91c1c2a130d649043'
+    // Direct Chat Link
+    // https://tawk.to/chat/tawkToPropertyId/tawkToKey
+    
+    const tawkToKey = '1evsk7qgq'
+    
+    useEffect(() => {
+    tawkTo(tawkToPropertyId, tawkToKey)
+    }, [])
+    
   return (
     <div>
-      <Helmet>
+      <Helmet >
         <title>{title}</title>
         <meta name="description" content={description} />
 
