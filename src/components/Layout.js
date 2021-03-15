@@ -7,22 +7,11 @@ import './custom.sass'
 import useSiteMetadata from './SiteMetadata'
 import useLocalStorage from '../hooks/useLocalStorage'
 import { withPrefix } from 'gatsby'
-import tawkTo from "tawkto-react";
 
 const TemplateWrapper = ({ children }) => {
     const {title, description} = useSiteMetadata()
    
     const [lang, setLang] = useLocalStorage('activeLanguage', 'fi');
-    
-    const tawkToPropertyId = '603fcfd91c1c2a130d649043'
-    // Direct Chat Link
-    // https://tawk.to/chat/tawkToPropertyId/tawkToKey
-    
-    const tawkToKey = '1evsk7qgq'
-    
-    useEffect(() => {
-    tawkTo(tawkToPropertyId, tawkToKey)
-    }, [])
     
   return (
     <div>
