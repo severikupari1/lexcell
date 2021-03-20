@@ -24,10 +24,12 @@ export const ProductPageTemplate = ({
             <div className="column is-10 is-offset-1">
 
               <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
+                <MarkdownContent content={pricing.heading}/>
               </h2>
 
-              <p className="is-size-5">{pricing.description}</p>
+              <p className="is-size-5">
+                  <MarkdownContent content={pricing.description}/>
+              </p>
               <Pricing data={pricing.plans} />
             </div>
           </div>
@@ -83,7 +85,6 @@ export const productPageQuery = graphql`
           description
           plans {
             description
-            items
             plan
             price
           }
