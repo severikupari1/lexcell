@@ -3,9 +3,7 @@ heading: Services
 path: /products
 templateKey: product-page
 description: >-
-  You can use our free templates for trading, real estate exchange,
-  related contracts or take advantage of our low-cost experts
-  in document formatting, background research or other consulting. Feel free to contact us and ask more.
+  Free to use templates by Lexcell. You can use our templates for making real estate sales documents or other exchanges. Consider also taking advantage of our low-cost experts in document formatting, background research, or other specified needs. Feel free to contact us and ask more.
 
 
   <a href="mailto:info@lexcell.fi" class="email-link">info@lexcell.fi</a> or firstname.lastname@lexcell.fi. You will find a personal introduction [from here](https://lexcell.netlify.app/about).  
@@ -29,11 +27,33 @@ description: >-
   </article>
 pricing:
   heading: Pricing
-  description: Coming soon
+  description: <p>Example prices :</p>  
   plans:
-    - description: Coming soon
-      items:
-        - Coming soon
-      plan: Custom
-      price: ??
+    - description: ''
+      plan: Real estate deed
+      price: '199 €'    
+    - description: ''
+      plan: Preliminary agreement
+      price: '199 €'    
+    - description: ''
+      plan: Sharing agreement
+      price: '199 €'    
+    - description: ''
+      plan: Land lease agreement
+      price: '199 €'    
+    - description: ''
+      plan: Apartment rental agreement
+      price: '199 €'    
+    - description: ''
+      plan: Management Sharing Agreement
+      price: '299 €'    
+    - description: ''
+      plan: Ask for a quote for other jobs!
+      price: ''    
+    - description: ''
+      plan: Prices include VAT, necessary supplements will be charged separately.
+      price: ''    
+    - description: ''
+      plan: 'Lexcell Oy, Business ID: 3147819-7'
+      price: ''
 ---

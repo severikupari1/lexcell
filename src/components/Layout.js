@@ -47,19 +47,19 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
 
-        <meta property="og:url" content="https://lexcell.netlify.app/" />
+        <meta property="og:url" content="https://lexcell.fi/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content="https://lexcell.netlify.app/img/og-image.jpg" />
+        <meta property="og:image" content="https://lexcell.fi/img/og-image.jpg" />
 
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="linkedIn:domain" content="lexcell.netlify.app" />
-        <meta property="linkedIn:url" content="https://lexcell.netlify.app/" />
+        <meta property="linkedIn:domain" content="lexcell.fi" />
+        <meta property="linkedIn:url" content="https://lexcell.fi/" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content="https://lexcell.netlify.app/img/og-image.jpg" />
+        <meta name="twitter:image" content="https://lexcell.fi/img/og-image.jpg" />
 
         <meta
           property="og:image"

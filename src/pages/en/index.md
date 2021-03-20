@@ -3,46 +3,36 @@ templateKey: index-page-en
 title: Lexcell Oy
 image: /img/hero_image.jpg
 heading: About our company
-description: Lexcell Oy focuses on consulting in land use processes e.g. in
-  construction, land development and real property management. The company
-  provides counselling and preparatory work for real estate formation and land
-  property sales.
+description: Lexcell is a new kind of company with easy-to-use services, focusing on real estate consulting, offering affordable services to private landowners, construction companies, and investors.
 intro:
   blurbs:
     - image: /img/money-house.jpg
-      text: >
-        <h2 class="text-primary"> Construction, design and real estate exchange and legal competence </h2>
+      text: |
+        <h2 class="text-primary"> Construction - planning and legal service </h2>
+        We assist you with municipal land use services such as zoning (city planning), land management, building permits and Real estate formation.
 
-        * Land use processes
+        We also help with project development, for example by promoting communication and cooperation with the municipality and finding opportunities to invest in the land together with you.
 
-        * Zoning, land management and development, public processes such as construction and real estate formation in the municipality
+        With our help, construction companies and real estate investors as well as private operators get a comprehensive service in the development of small properties.
 
-        * Real estate development
-
-        * Real estate development by developing land, development of small properties, eg residential apartments, zoning, general trends in real estate development
-
-        * Real estate exchange and related legislation
-
-        * Real estate transaction, registration of holdings, distribution books, etc.
-
-        * Property management agreements
-
-        * Encumbrance agreements, management sharing agreements, deeds of sale, etc.
-
-        * Spatial data analysis
-
-        * Harmonization of information
-
-        * 3D visualizations and city models
-
-        * Information management 
+        * Project development consulting (zoning, land management and development)
+        * Real estate formation consulting
+        * Agreements related to real estate and their management
+        * Sort otu ownership
+        * Interpretation of the city plan (Zoning plan)  
     - image: /img/map.png
       text: |
-        <h2 class="text-primary"> Spatial knowledge and information management </h2>
-        * Spatial data analysis
-        * Harmonization of information
-        * 3D visualizations and city models
-        * Information management
+        <h2 class="text-primary"> Real estate exchanges </h2>
+        Have you decided to sell your property or apartment independently? Through us, you can get necessary documents prepared by professionals and other contract documents related to real estate affordable. We also assist in carrying out the process in more challenging cases.
+
+        * Contract of sale
+        * Preliminary contracts
+        * Leases contracts
+        * Management sharing contracts
+        * Debt agreements
+        * Property division contract
+        * General consulting in  real estate exchanges
+        * Property documents from cadastre (register)
 
 productlink: List of prices!
 

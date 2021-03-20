@@ -31,11 +31,33 @@ description: >-
   </article>
 pricing:
   heading: Hinnasto
-  description: Tulossa pian
+  description: <p>Esimerkkejä hinnoista :</p>  
   plans:
-    - description: Tulossa pian
-      items:
-        - Tulossa pian
-      plan: Kustomoitu
-      price: ??
+    - description:
+      plan: Kiinteistön kauppakirja
+      price: '199 €'    
+    - description:
+      plan: Esisopimus
+      price: '199 €'    
+    - description:
+      plan: Jakosopimus
+      price: '199 €'    
+    - description:
+      plan: Maanvuokrasopimus
+      price: '199 €'    
+    - description:
+      plan: Huoneistonvuokrasopimus
+      price: '199 €'    
+    - description:
+      plan: Hallinnanjakosopimus
+      price: '299 €'    
+    - description:
+      plan: Muista töistä pyydä tarjous!
+      price: ''    
+    - description:
+      plan: Hinnat sisältävät arvonlisäveron, tarvittavat liitteet veloitetaan erikseen.
+      price: ''    
+    - description:
+      plan: 'Lexcell Oy, Y-tunnus: 3147819-7'
+      price: ''
 ---
