@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { chunk } from "lodash";
 
 const Pricing = ({ data }) => {
-    const chunks = chunk(data,4);
+    const chunks = chunk(data,3);
     return (
         chunks.map((chunk) => (
             <div className="tile is-ancestor">
