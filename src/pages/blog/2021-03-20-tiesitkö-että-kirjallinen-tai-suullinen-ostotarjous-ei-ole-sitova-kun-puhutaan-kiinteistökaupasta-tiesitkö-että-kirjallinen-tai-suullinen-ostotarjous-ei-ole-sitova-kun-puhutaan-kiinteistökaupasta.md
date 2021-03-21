@@ -1,8 +1,7 @@
 ---
 templateKey: blog-post
 title: Tiesitkö, että kirjallinen tai suullinen ostotarjous ei ole sitova kun
-  puhutaan kiinteistökaupasta? Tiesitkö, että kirjallinen tai suullinen
-  ostotarjous ei ole sitova kun puhutaan kiinteistökaupasta?
+  puhutaan kiinteistökaupasta?
 date: 2021-03-20T21:32:35.832Z
 description: Lexcell Oy
 featuredimage: /img/logo.png
