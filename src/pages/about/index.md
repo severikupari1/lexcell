@@ -9,13 +9,6 @@ title: Asiantuntijat
 
 ##### [LinkedIn](https://www.linkedin.com/in/ksulonen/)
 
-## Aleksi Toivonen
-
-![Aleksi Toivonen](/img/aleksi.png "Aleksi Toivonen")
-
-##### [LinkedIn](https://fi.linkedin.com/in/aleksi-toivonen-b3683b13b)
-
-
 ## Ville Paatsola
 
 ![Ville Paatsola](/img/ville.png "Ville Paatsola")
