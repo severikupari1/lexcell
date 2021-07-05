@@ -5,9 +5,16 @@ title: Asiantuntijat
 ---
 ## Kimmo Sulonen
 
+D.Sc. (Tech.). Real Estate Development
+
 ![Kimmo Sulonen](/img/kimmo.png "Kimmo Sulonen")
 
 ##### [LinkedIn](https://www.linkedin.com/in/ksulonen/)
+
+<a class="twitter-follow-button"
+  href="https://twitter.com/KimmoSulonen"
+  data-size="large">
+Follow @kimmosulonen</a>
 
 ## Ville Paatsola
 
