@@ -2,8 +2,9 @@
 templateKey: blog-post
 title: Rakentaminen ja lupaviidakko
 date: 2021-07-05T19:17:49.838Z
-description: Tässä artikkelissa selvitetään miten toteuttaa tehokkaista, kestävi
-  ja kaikkien resursseja säästäviä maankäytön ja rakentamisen prosesseja.
+description: Tässä artikkelissa selvitetään miten toteuttaa tehokkaita, kestäviä
+  ja kaikkien resursseja säästäviä maankäytön- sekä rakentamisen hankkeita
+  kaupunkie kanssa.
 featuredimage: /img/map.png
 ---
 Rakentaminen on Suomessa tarkasti säädeltyä lainsäädännöllä ja kuntakohtaisilla rakentamisen ohjeistuksilla. Tällä pyritään tuottamaan laadukasta ja turvallista ympäristöä, mutta kaupunkien ja valtion ohjailemat prosessit ovat välillä haastavan monimutkaisia. 
