@@ -3,11 +3,15 @@ templateKey: index-page
 title: Lexcell Oy
 image: /img/hero_image.jpg
 heading: Tietoja yrityksestämme
-description: Lexcell Oy on uudenlainen selkeä ja helppo kiinteistöihin ja
-  paikkatedon konsultointiin keskittynyt yritys, joka tarjoaa edullisia
-  palveluita niin yhteisöille kuten rakentajille ja sijoittajille tai
-  julkisyhteisöille. Tarjomme myös kevyempiä konsultointiratkaisuja
-  pientoimintaan, kuten maanomistajille ja elinkeinonharjoittajille.
+description: >-
+  Lexcell Oy on uudenlainen selkeä ja helppo kiinteistöihin ja paikkatedon
+  konsultointiin keskittynyt yritys, joka tarjoaa edullisia palveluita niin
+  yhteisöille kuten rakentajille ja sijoittajille tai julkisyhteisöille.
+  Tarjomme myös kevyempiä konsultointiratkaisuja pientoimintaan, kuten
+  maanomistajille ja elinkeinonharjoittajille. 
+
+
+  Y-tunnus: 3147819-7
 intro:
   blurbs:
     - image: /img/money-house.jpg
@@ -49,25 +53,25 @@ intro:
         <!--EndFragment-->
       image: /img/map.png
     - image: /img/map.png
-      text: >
+      text: >-
         <h2 class="text-primary"> Kiinteistönvaihdanta </h2>
 
         Oletko päättänyt myydä kiinteistösi tai asuntosi itsenäisesti? Meidän kautta saat ammattilaiset laatimat luovutuskirjat sekä muut kiinteistöihin liittyvät sopimusasiakirjat edullisesti. Avustamme prosessin läpiviemisessä myös haastavammissa tapauksissa.
 
-        * Kauppakirjat
+        \* Kauppakirjat
 
-        * Esisopimukset
+        \* Esisopimukset
 
-        * Vuokrasopimukset
+        \* Vuokrasopimukset
 
-        * Hallinnanjakosopimukset
+        \* Hallinnanjakosopimukset
 
-        * Rasitesopimukset
+        \* Rasitesopimukset
 
-        * Jakokirjat
+        \* Jakokirjat
 
-        * Muu kiinteistönvaihdantaan liittyvä konsultointi
+        \* Muu kiinteistönvaihdantaan liittyvä konsultointi
 
-        * Kiinteistön dokumentit
+        \* Kiinteistön dokumentit
 productlink: Esimerkkejä hinnoittelustamme
 ---
