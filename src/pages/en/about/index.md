@@ -3,7 +3,7 @@ templateKey: about-page
 path: /about
 title: Specialists
 ---
-Are you interested to be a part of the team?
+Are you interested to be part of the team?
 
 
 
