@@ -3,21 +3,8 @@ templateKey: about-page
 path: /about
 title: Specialists
 ---
-## Kimmo Sulonen
-
-![Kimmo Sulonen](/img/kimmo.png "Kimmo Sulonen")
-
-##### [LinkedIn](https://www.linkedin.com/in/ksulonen/)
-
-## Aleksi Toivonen
-
-![Aleksi Toivonen](/img/aleksi.png "Aleksi Toivonen")
-
-##### [LinkedIn](https://fi.linkedin.com/in/aleksi-toivonen-b3683b13b)
+Are you interested to be a part of the team?
 
 
-## Ville Paatsola
 
-![Ville Paatsola](/img/ville.png "Ville Paatsola")
-
-##### [LinkedIn](https://fi.linkedin.com/in/ville-paatsola-1585661b8)
+Contact us info \[@] Lexcell.fi and tell us more about yourself and your ideas.
