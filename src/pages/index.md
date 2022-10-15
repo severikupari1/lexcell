@@ -73,5 +73,5 @@ intro:
         \* Muu kiinteistönvaihdantaan liittyvä konsultointi
 
         \* Kiinteistön dokumentit
-productlink: Esimerkkejä hinnoittelustamme
+productlink: Esimerkkejä palveluistamme
 ---
