@@ -31,7 +31,8 @@ description: >-
   </article>
 pricing:
   heading: Hinnat ja palvelut
-  description: <p>Pyydä tarjous yksittäisestä sopimusasiakirjasta tai laajemmasta
+  description: <p>Pyydä tarjous yksittäisestä sopimusasiakirjasta kuten <i>kauppa,
+    lahja, maankäyttösopimus, rasitesopimus </i> tai laajemmasta
     konsultoinnista</p>
   plans: []
 ---
