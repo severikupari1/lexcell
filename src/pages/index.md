@@ -4,10 +4,10 @@ title: Lexcell Oy
 image: /img/hero_image.jpg
 heading: Tietoja yrityksestämme
 description: >-
-  Lexcell Oy on uudenlainen selkeä ja helppo kiinteistöihin ja paikkatedon
+  Lexcell Oy on uudenlainen selkeä ja helppo kiinteistöihin ja paikkatiedon
   konsultointiin keskittynyt yritys, joka tarjoaa edullisia palveluita niin
   yhteisöille kuten rakentajille ja sijoittajille tai julkisyhteisöille.
-  Tarjomme myös kevyempiä konsultointiratkaisuja pientoimintaan, kuten
+  Tarjoamme myös kevyempiä konsultointiratkaisuja pientoimintaan, kuten
   maanomistajille ja elinkeinonharjoittajille. 
 
 
@@ -38,7 +38,7 @@ intro:
 
         * Autamme rakentamaan ja toteuttamaan konkreettisia tuotannon osia kuten suunnittelemalla ja tai toteuttamalla yksittäisiä osavaiheita kuten kaupunkimallia
 
-        * Tuemme myös muutosprosesseissa ja tiedoll johtamisessa, kuten sparraamalla ja kouluttamalla henkilöstöä.
+        * Tuemme myös muutosprosesseissa ja tiedolla johtamisessa, kuten sparraamalla ja kouluttamalla henkilöstöä.
 
 
         <!--EndFragment-->
