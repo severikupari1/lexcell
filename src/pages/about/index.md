@@ -9,15 +9,23 @@ D.Sc. (Tech.). Real Estate Development
 
 ![Kimmo Sulonen](/img/kimmo.png "Kimmo Sulonen")
 
-##### [LinkedIn](https://www.linkedin.com/in/ksulonen/)
+<a href="https://fi.linkedin.com/in/ksulonen" style="font-weight:bold">Linkedin</a>
 
 <a class="twitter-follow-button"
   href="https://twitter.com/KimmoSulonen"
   data-size="large">
-Follow @kimmosulonen</a>
+Twitter @kimmosulonen</a>
 
 ## Ville Paatsola
 
 ![Ville Paatsola](/img/ville.png "Ville Paatsola")
 
-##### [LinkedIn](https://fi.linkedin.com/in/ville-paatsola-1585661b8)
+<a href="https://fi.linkedin.com/in/villepaatsola" style="font-weight:bold">Linkedin</a>
+
+
+
+## Aleksi Toivonen
+
+![Aleksi Toivonen](/img/aleksi.png "Aleksi Toivonen")
+
+<a href="https://fi.linkedin.com/in/aleksi-toivonen-b3683b13b" style="font-weight:bold">Linkedin</a>
