@@ -14,60 +14,42 @@ description: >-
   Y-tunnus: 3147819-7
 intro:
   blurbs:
-    - image: /img/3d_km.jpg
+    - image: /img/logo.png
       text: >-
-        <h2 class="text-primary"> Kolmiulotteinen kiinteistönmuodostus (3D -
-        Real Property formation) </h2>
+        <h2 class="text-primary"> Koulutuspaketit </h2>
 
 
-        \- Kolmiulotteinen kiinteistönmuodostus tarjoaa uudenlaisia mahdollisuuksia toteuttaa monimutkaisia ja monitasoisia hankkeita. Keskeistä on jos maan alle tai maanpinnan yläpuolelle rakennetaan toimintoja, jotka ovat eri toteuttajilla. 
+        Tarjoamme kiinteistönmuodostuksen, kaavoituksen ja maankäytön koulutuskokonaisuuksia. 
 
 
-        \- Kolmiulotteinen kiinteistönmuodostus on  tuttua kansainvälisillä markkinoilla, jossa sen hyödyntäminen kotimaisissa hankkeissa edesauttaa hankkeen yhteentoimivuutta kansainvälisten toimijoiden kesken.
+        Esimerkkejä koulutuspaketeista:
 
 
-        \-﻿ Olemme toteuttaneet asiakkaillemme konsultointia kyseisissä tapauksissa, kun esimerkiksi maan alle rakennetaan merkittävästi erilaisia toimintoja, joita ei alkuperäisessä suunnittelussa ja kaavoituksessa ei ole vielä huomioitu. 
+        \-﻿ Kiinteistönmuodostus
 
 
-        Tällaisiin tapauksiin liittyy sopimista ja toimintoja sekä viranomaisten että eri toimijoiden kesken, mm. 3D-rasitteiden osalta. Ole yhteydessä ja kysy lisää vaihtoehdoista ja referensseistämme!
+        \-﻿ Tonttijaon laatiminen
+
+
+        \-﻿ Maankäytön sopimukset
+
+
+        \-﻿ Kaavoitus
+
+
+        Koulutukset räätälöidään asiakkaalle sopivaksi
     - text: >-
-        <h2 class="text-primary"> Julkisen sektorin prosessikehittäminen</h2>
+        <h2 class="text-primary"> Kiinteistönmuodostamisen konsultointi</h2>
 
 
-        * Autamme esimerkiksi kuntia kehittämään palveluitaan tuomalla osaamistyötämme hankkeiden toteutukseen, ohjaukseen, raportointiin tai koulutukseen.
+        Autamme kuntia kehittämään ja toteuttamaan kiinteistönmuodostamisen palveluitaan
 
-        * Autamme rakentamaan ja toteuttamaan konkreettisia tuotannon osia kuten suunnittelemalla ja tai toteuttamalla yksittäisiä osavaiheita kuten kaupunkimallia
 
-        * Tuemme myös muutosprosesseissa ja tiedolla johtamisessa, kuten sparraamalla ja kouluttamalla henkilöstöä.
+        Tuomme osaamistamme hankkeiden toteutukseen, ohjaukseen, raportointiin tai koulutukseen.
 
 
         <!--EndFragment-->
-      image: /img/map.png
-    - image: /img/money-house.jpg
-      text: >
-        <h2 class="text-primary"> Rakentaminen- suunnittelu ja juridinen
-        osaaminen </h2>
-
-        Avustamme sinua kunnan maankäytön viranomaispalveluissa kuten kaavoitukseen, maaomaisuuden hallintaan, rakennuslupaan ja kiinteistönmuodostukseen liittyen.
-
-
-        Autamme myös hankekehityksessä, esimerkiksi edistämällä kommunikointia ja yhteistyötä kunnan kanssa ja löytämään yhdessä kanssanne mahdollisuuksia investoida maaomaisuuteen.
-
-
-        Meidän avullamme niin rakennusliikkeet ja kiinteistösijoittajat kuin yksityiset toimijat saavat kokonaisvaltaista palvelua pienkiinteistöjen kehittämisessä.
-
-
-        * Hankekehityksen konsultointi (kaavoitus, maaomaisuuden hallinta- ja kehittäminen)
-
-        * Kiinteistönmuodostuksen konsultointi
-
-        * Kiinteistöihin sekä niiden hallintaan liittyvät sopimukset
-
-        * Kiinteistön selvitystyöt
-
-        * Omistajaselvitykset
-
-        * Asemakaavan tulkinta
+      image: /img/3d_km.jpg
     - image: /img/map.png
       text: >-
         <h2 class="text-primary"> Kiinteistönvaihdanta </h2>
@@ -89,5 +71,7 @@ intro:
         \* Muu kiinteistönvaihdantaan liittyvä konsultointi
 
         \* Kiinteistön dokumentit
+    - image: /img/money-house.jpg
+      text: <h2 class="text-primary"> </h2>
 productlink: Esimerkkejä palveluistamme
 ---
