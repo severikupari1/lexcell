@@ -73,5 +73,5 @@ intro:
         \* Kiinteistön dokumentit
     - image: /img/money-house.jpg
       text: <h2 class="text-primary"> </h2>
-productlink: Esimerkkejä palveluistamme
+productlink: Esimerkkejä sopimuspohjista
 ---
