@@ -23,7 +23,7 @@ const Footer = class extends React.Component {
           <img
             src={logo}
             alt="Lexcell Oy"
-            style={{ width: '14em', height: '10em' }}
+            style={{ width: '14em', height: '5em' }}
           />
           <h4 class="has-text-white-ter">
             { this.props.lang === 'fi' ? 'Y-tunnus: ' : 'Business ID: '} 3147819-7
