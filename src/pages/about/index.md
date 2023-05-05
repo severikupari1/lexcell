@@ -22,10 +22,8 @@ Twitter @kimmosulonen</a>
 
 <a href="https://fi.linkedin.com/in/villepaatsola" style="font-weight:bold">Linkedin</a>
 
-
-
 ## Aleksi Toivonen
 
-![Aleksi Toivonen](/img/aleksi.png "Aleksi Toivonen")
+![Aleksi Toivonen](/img/1578481929757.jpg "Aleksi Toivonen")
 
 <a href="https://fi.linkedin.com/in/aleksi-toivonen-b3683b13b" style="font-weight:bold">Linkedin</a>
