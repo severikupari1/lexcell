@@ -4,11 +4,11 @@ title: Lexcell Oy
 image: /img/hero_image.jpg
 heading: Tietoja yrityksestämme
 description: >-
-  Lexcell Oy on uudenlainen selkeä ja helppo kiinteistöihin ja paikkatiedon
-  konsultointiin keskittynyt yritys, joka tarjoaa edullisia palveluita niin
-  yhteisöille kuten rakentajille ja sijoittajille tai julkisyhteisöille.
-  Tarjoamme myös kevyempiä konsultointiratkaisuja pientoimintaan, kuten
-  maanomistajille ja elinkeinonharjoittajille. 
+  Lexcell Oy on uudenlainen selkeä ja helppo maankäytön kuten kiinteistöihin,
+  kaavoihin ja paikkatiedon konsultointiin keskittynyt yritys, joka tarjoaa
+  edullisia palveluita mm. kunnille, rakentajille ja sijoittajille tai
+  maanomistajille. Tarjoamme myös kevyempiä konsultointiratkaisuja
+  pientoimintaan, kuten yksityishenkilöille ja muille elinkeinonharjoittajille.
 
 
   Y-tunnus: 3147819-7
@@ -25,24 +25,25 @@ intro:
         Esimerkkejä koulutuspaketeista:
 
 
-        \-﻿ Kiinteistönmuodostus
-
-
-        \-﻿ Tonttijaon laatiminen
-
-
-        \-﻿ Maankäytön sopimukset
+        \-﻿ Prosessikehittäminen ja kuvaukset
 
 
         \-﻿ Kaavoitus
 
 
+        \-﻿ Maankäytön sopimukset
+
+
+        \-﻿ Kiinteistönmuodostus
+
+
         Koulutukset räätälöidään asiakkaalle sopivaksi
     - text: >-
-        <h2 class="text-primary"> Kiinteistönmuodostamisen konsultointi</h2>
+        <h2 class="text-primary"> Kaavoituksen ja kiinteistönmuodostamisen
+        konsultointi</h2>
 
 
-        Autamme kuntia kehittämään ja toteuttamaan kiinteistönmuodostamisen palveluitaan
+        Autamme kuntia kehittämään ja toteuttamaan kaavoituksen ja kiinteistönmuodostamisen palveluitaan.
 
 
         Tuomme osaamistamme hankkeiden toteutukseen, ohjaukseen, raportointiin tai koulutukseen.
